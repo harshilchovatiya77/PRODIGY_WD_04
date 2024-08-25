@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><img src="Screenshot 2024-08-17 110758.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="overlay"></div>
+        <div class="home-content">
+            <h1>Designing the Future</h1>
+            <h2>Innovative Web Developer & Designer</h2>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="IMG_5437.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>I am a creative web developer with a passion for crafting digital experiences that engage and inspire. With a background in both design and development, I bring a unique perspective to every project.</p>
+                    <p>My expertise includes front-end development using modern frameworks, responsive design, and creating seamless user experiences. I am constantly learning and evolving with the latest trends in technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="Tic-Tac-Toe">
+                    <div class="portfolio-info">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>Web application for A Tic-Tac-Toe .</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="E-commerce">
+                    <div class="portfolio-info">
+                        <h3>E-commerce</h3>
+                        <p>Responsive e-commerce website design.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="th.jpg" alt="Twitter"></a></li>
+                <li><a href="#"><img src="th (1).jpg" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="th (2).jpg" alt="GitHub"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home-section {
+        background-size: cover;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+}
